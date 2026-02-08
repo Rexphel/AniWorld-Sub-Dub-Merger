@@ -4,9 +4,7 @@ A little script to megre the Sub and Dub of an episode downloaded using Aniworld
 mkvmerger from the mkvtoolnix package
 ## Usage
 Place the file next to the Episodes you want to merge.\
-The two input Args are one Full file name and the length of one Season\
-Important!: You have to change the language string inside the script to your prefered language. By default it is german.
-## Current Issues
-Movies are not realy regarded in this script\
-Seasons with diffrent lengths are not supported for now\
-Language selection through an edit of the script\
+The input agruments are first the "File Prefix" a.e. the Anime Name. Then the number of seasons in the folder, then the language in the filename and lastly if you want to delete the original file.\
+For example:\
+The two files are Named "SPY x FAMILY - S03E001 - (German Dub).mp4" and "SPY x FAMILY - S03E001 - (German Sub).mp4" and you want to clear the old files.
+Then you would run ``` ./sdmerger.sh "SPY x FAMILY" 3 "German" 1 ```\
