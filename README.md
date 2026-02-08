@@ -1,7 +1,7 @@
 # AniWorld-Sub-Dub-Merger
 A little script to megre the Sub and Dub of an episode downloaded using Aniworld Downloader
 ## Prerequisites
-- Linux\
+- Linux
 - mkvmerger from the mkvtoolnix package
 ## Usage
 Place the file next to the Episodes you want to merge.\
