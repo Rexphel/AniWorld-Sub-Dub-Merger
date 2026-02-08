@@ -1,6 +1,5 @@
 #!/bin/bash
 # Usage: ./merge.sh Name of the Series, Number of Seasons, Language, Delete Files (0/1 Default 0)
-# Created by rexphel
 
 #$1: Number of Episodes, $2: Series Name, $3: Season, $4: Language, $5: Delete Files
 merge_episodes() {
@@ -93,7 +92,7 @@ main() {
         else
             echo "No Episodes in Season $num_season found"
         fi
-        ((season++))
+        ((num_season++))
 
     done
 
